@@ -1,0 +1,21 @@
+html
+{
+/*  font-size: 18px;*/
+}
+
+body 
+{
+  font-family: 'Sassoon Primary regular', sans-serif;
+  line-height: 1.5;
+}
+
+i, em
+{
+	font-family: 'Sassoon Primary infant', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, 
+b, strong 
+{
+	font-family: 'Sassoon Primary bold', sans-serif;
+}

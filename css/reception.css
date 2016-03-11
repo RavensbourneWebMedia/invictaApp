@@ -1,0 +1,15 @@
+.eyfs p {
+	color: #f81212;
+  background: chartreuse;
+}
+
+.eyfs .deptford {
+  color: darkblue;
+}
+
+.eyfs h1 { color: #ea16d9}
+.eyfs h1 {background:rgb(64, 3, 72)} 
+.eyfs h2 {color: #00f5ff}
+.eyfs h2 {background:#a30df2}
+.eyfs h3 {color: rgba(127, 255, 0, 0.99)}
+.eyfs h3 {background:#ea16d9}

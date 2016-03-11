@@ -1,0 +1,8 @@
+.details-bar.cleanslate
+{
+  display: none !important;
+  /*
+    bottom: 5px !important;
+    top: auto !important;
+  */
+}
