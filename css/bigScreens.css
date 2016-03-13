@@ -1,4 +1,4 @@
-@media (min-width: 50rem)
+@media (min-width: 40rem)
 {
   body
   {
@@ -15,7 +15,7 @@
   /* centre sections */
   article section 
   {
-    max-width: 50rem;
+    max-width: 40rem;
     margin: auto;
   }
   
