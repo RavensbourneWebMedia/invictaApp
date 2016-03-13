@@ -1,0 +1,83 @@
+h1
+{
+  text-align:center;
+
+}
+
+#year4body{
+  background-color: #00FFBF;
+  color: rgb(220, 93, 161);
+}
+
+#year4logo
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  margin-top: -5%;
+}
+
+#year4booknow{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+#year4thankyou{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#year4phototext{
+  font-size: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-color: black;
+  border-style: solid;
+  width: 25%;
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: -10px;
+  border-color: rgb(220, 93, 161);
+  border-radius: 4px;
+  text-align: center;
+}
+#year4classphotos{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#year4beagleclassphoto{
+  width: 60%;
+  margin-left: auto;
+  margin-bottom: -10px;
+}
+
+#year4darwinclassphoto{
+  width: 60%;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+#year4beagleclasstext{
+  text-align: left;
+  margin-bottom: -25%;
+  margin-top: 15%;
+  padding-left: 5%;
+}
+
+#year4darwinclasstext{
+  text-align: right;
+  margin-top: 20%;
+  margin-bottom: -30%;
+  padding-right: 5%;
+}
+
+#year4digitalleadersphoto{
+ width:70%;
+  margin-left: auto;
+  margin-right: auto;
+}

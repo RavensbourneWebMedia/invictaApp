@@ -1,0 +1,10 @@
+.review
+{
+  clear: both;
+}
+
+.review img
+{
+  float: left;
+  width: 50%;
+}

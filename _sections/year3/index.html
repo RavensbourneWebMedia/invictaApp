@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Invicta App template</title>
+
+    <!-- STYLES, aka CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/libraries/fontAwesome.css">
+    <link rel="stylesheet" href="css/libraries/audioPlayer.css">
+    <link rel="stylesheet" href="css/libraries/slick.css">
+    <!-- <link rel="stylesheet" href="css/remixBar.css">-->
+    <link rel="stylesheet" href="css/texts.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/colours.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/bigScreens.css">
+    <Link rel="stylesheet" href="css/Year%203.css">
+
+    <!-- SCRIPTS, aka JS -->
+    <script src="js/libraries/jquery.js"></script>
+    <script src="js/libraries/jquery.audioPlayer.js"></script>
+    <script src="js/libraries/jquery.slick.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/videos.js"></script>
+    <script src="js/audios.js"></script>
+    <script src="js/sliders.js"></script>
+  </head>
+  <body>
+
+    <nav class="menu">
+      <a class="toggle fa fa-bars"></a>
+      <ul>
+        <li goTo="home" >Home</li>
+        <li goTo="reception">Reception</li>
+        <li goTo="year1">Year 1</li>
+        <li goTo="year2">Year 2</li>
+        <li goTo="year3">Year 3</li>
+        <li goTo="year4">Year 4</li>
+        <li goTo="year5">Year 5</li>
+      </ul>
+    </nav>
+
+    <article>
+
+      <section name="home">
+        
+        <h1>Welcome to Invicta!</h1>
+        
+        <img src="images/invictaLogo.png">
+        
+        <p>This is a paragraph for you to change.</p>
+        
+      </section>
+
+      <section name="reception">
+        
+        <h1>Reception</h1>
+        
+        <ul id="receptionSlider">
+
+          <li class="slide">
+            <img data-lazy="https://codeyourapp.club/images/apps_from_scratch_1.jpg"/>
+          </li>
+
+          <li class="slide">
+            <img data-lazy="https://codeyourapp.club/images/apps_from_scratch_2.jpg"/>
+          </li>
+
+          <li class="slide">
+            <img data-lazy="https://codeyourapp.club/images/apps_from_scratch_3.jpg"/>
+          </li>
+        </ul>
+        
+        <p>This is a paragraph for you to change.</p>
+        
+      </section>
+
+      <section name="year1">
+        
+        <h1>Year 1</h1>
+        
+        <p>This is a paragraph for you to change.</p>
+        
+        <ul id="year1AudioBook">
+          
+          <li class="slide">
+            <img data-lazy="https://codeyourapp.club/images/apps_from_scratch_1.jpg"/>
+            <audio src="audios/year1/test1.mp3" preload="none" controls></audio>
+          </li>
+          
+          <li class="slide">
+            <img data-lazy="https://codeyourapp.club/images/apps_from_scratch_2.jpg"/>
+            <audio src="audios/year1/test2.mp3" preload="none" controls></audio>
+          </li>
+          
+          <li class="slide">
+            <img data-lazy="https://codeyourapp.club/images/apps_from_scratch_3.jpg"/>
+            <audio src="audios/year1/test1.mp3" preload="none" controls></audio>
+          </li>
+        </ul>
+        
+        <p>This is a paragraph for you to change.</p>
+        
+      </section>
+
+      <section name="year2">
+        
+        <h1>Year 2</h1>
+        
+        <img src="https://codeyourapp.club/images/apps_from_scratch_4.jpg">
+        
+        <a onclick="goTo('year2_recipe1')" class="button">Recipe 1</a>
+        
+        <a onclick="goTo('year2_recipe2')" class="button">Recipe 2</a>
+        
+        <p>This is a paragraph for you to change.</p>
+        
+      </section>
+      
+      <section name="year2_recipe1">
+        
+        <h1>First recipe</h1>
+        
+        <a onclick="goTo('year2')" class="button">Back</a>
+        
+        <p>This is a paragraph for you to change.</p>
+        
+      </section>
+      
+      <section name="year2_recipe2">
+        
+        <h1>Second recipe</h1>
+        
+        <a onclick="goTo('year2')" class="button">Back</a>
+        
+        <p>This is a paragraph for you to change.</p>
+        
+      </section>
+
+      <section name="year3" class="active"
+               >
+        
+        <h1>Year 3</h1>
+        
+        <p>Hello! We are Drake class and we are hoping to impress you with our hard work on plants. We would like you to support us and help people live <span class="Dog">HEALTHIER!</span> We have also been working hard on making our app, so we hope you appreciate it. Everybody in the class has had their own job to do in this project.
+        </p>
+        
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ULePG9_Chxw" frameborder="0" allowfullscreen></iframe> -->
+        
+        <p class="drake">This is Drake class!</p>
+        
+        <img class="frame" src="http://i.imgur.com/tSFcE5W.png">
+        
+        <p>This video is about plants and we really want you to see it.</p>
+        
+        
+        <iframe class="dashed" width="560" height="315" src="https://www.youtube.com/embed/H489t8LcaLU" frameborder="0" allowfullscreen></iframe>
+        
+        
+        
+        <p class="drake">This is Golden Hinde class!</p>
+
+        <img class="frame"   src="http://i.imgur.com/81tGokz.png">
+        <p>This video is about planting seeds.</p>
+        
+        <iframe class="dashed" width="560" height="315" src="https://www.youtube.com/embed/6Qw1jp9Ov-o" frameborder="0" allowfullscreen></iframe>
+
+        <p>This page was made by Ella Ben salem and Daniel Eliss-wood.
+          
+        </p>
+      </section>
+
+      <section name="year4">
+        
+        <h1>Year 4</h1>
+
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/ULePG9_Chxw" frameborder="0" allowfullscreen></iframe>
+        
+        <a class="button" onclick="goTo('year4_booking')">Book now!</a>
+        
+        <p>This is a paragraph for you to change.</p>
+      
+      </section>
+
+      <section name="year4_booking">
+
+        <h1>Book now!</h1>
+        
+        <a onclick="goTo('year4')" class="button">Back</a>
+        
+        <p>This is a paragraph for you to change.</p>
+        
+        <!-- Widget from Eventbrite -->
+        <!-- <div style="width:195px; text-align:center;" >
+          <iframe  src="https://www.eventbrite.co.uk/calendar-widget?eid=21451993490" frameborder="0" height="529" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe>  
+        </div> -->
+        
+      </section>  
+      
+      <section name="year5">
+        
+        <h1>Year 5</h1>
+        
+        <p>This is a paragraph for you to change.</p>
+        
+        <!-- You can edit this quiz at https://www.qzzr.com -->
+        <!-- <iframe id="quizWidget-174517" width="100%" height="700px" frameborder="0" border="none" src="https://www.boombox.com/widget/quiz/fi9xdWl6emVzLzE3NDUxNw"></iframe> -->
+        
+        <p>This is a paragraph for you to change.</p>
+      
+      </section>
+
+      <section name="tweet">
+        <h2>A Tweet from @Invicta_primary</h2>
+        <!--
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Years 4, 5, 6 choir are so excited for tonight&#39;s performance of &#39;Along came Man!&#39; Rehearsals are in full swing! <a href="https://t.co/AVSg168QjK">pic.twitter.com/AVSg168QjK</a></p>&mdash; Invicta Primary (@Invicta_primary) <a href="https://twitter.com/Invicta_primary/status/697025305928720384">February 9, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+-->
+      </section>
+
+      <section name="flickr">
+        <h2>I like bees!</h2>
+        <!--        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/mmatteo/albums/72157662032263725" title="Bees"><img src="https://farm6.staticflickr.com/5793/22896054163_14d8c2dccc_c.jpg" width="800" height="534" alt="Bees"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>-->
+      </section>
+
+    </article>
+
+  </body>
+</html>

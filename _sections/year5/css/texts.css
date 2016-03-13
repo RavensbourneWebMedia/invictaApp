@@ -1,0 +1,14 @@
+/* FONTS from Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:300,600);
+@import url(https://fonts.googleapis.com/css?family=Lekton:400,400italic,700);
+
+html
+{
+/*  font-size: 18px;*/
+}
+
+body 
+{
+  font-family: 'Lekton', sans-serif;
+  line-height: 1.5;
+}

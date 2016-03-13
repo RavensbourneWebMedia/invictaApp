@@ -1,0 +1,58 @@
+@teal: rgb(36, 108, 122);
+@green: rgb(156, 206, 43);
+@pink: rgb(220, 93, 161);
+@grey: rgb(68, 68, 68);
+
+body
+{
+  color: @grey;
+}
+
+/* style for elements with class="button" */
+.button
+{
+  background: @teal;
+  color: white;
+}
+.button:hover
+{
+  background: @pink;
+}
+
+/* styles for the navigation menu */
+nav 
+{
+  background: @green;
+  color: white;
+}
+
+nav a.toggle
+{
+  background: @teal;
+}
+
+nav ul li
+{
+  border-bottom: 1px solid @teal;
+}
+nav ul li:hover,
+nav ul li.active
+{
+  background: @pink;
+}
+
+/* style for the embed elements (YouTube videos, quiz, tweets etc.) */
+iframe
+{
+  border: 1px solid @teal;
+}
+
+/* styles for the audio player (play and pause buttons) */
+.audioplayer
+{
+  background: @teal;
+}
+.audioplayer-playpause:hover
+{
+  background: @pink;
+}

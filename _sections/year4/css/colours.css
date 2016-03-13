@@ -1,0 +1,41 @@
+/**
+This file was automatically generated from colours.less on Sun Mar 13 2016 12:36:47 GMT+0000 (GMT). If you need to make changes, edit colours.less directly instead of this file.
+**/
+
+body {
+  color: #444444;
+}
+/* style for elements with class="button" */
+.button {
+  background: #246c7a;
+  color: white;
+}
+.button:hover {
+  background: #dc5da1;
+}
+/* styles for the navigation menu */
+nav {
+  background: #9cce2b;
+  color: white;
+}
+nav a.toggle {
+  background: #246c7a;
+}
+nav ul li {
+  border-bottom: 1px solid #246c7a;
+}
+nav ul li:hover,
+nav ul li.active {
+  background: #dc5da1;
+}
+/* style for the embed elements (YouTube videos, quiz, tweets etc.) */
+iframe {
+  border: 1px solid #246c7a;
+}
+/* styles for the audio player (play and pause buttons) */
+.audioplayer {
+  background: #246c7a;
+}
+.audioplayer-playpause:hover {
+  background: #dc5da1;
+}

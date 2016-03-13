@@ -1,0 +1,23 @@
+* 
+{
+  box-sizing: border-box;
+}
+
+body 
+{
+  margin: 0;
+}
+
+/* teach images some manners */
+img
+{
+  max-width: 100%;
+  height: auto;
+}
+
+/* teach iframes (YouTube videos etc.) some manners */
+iframe
+{
+  margin: auto;
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+@media (min-width: 50rem)
+{
+  body
+  {
+    width: 100%;
+    transform: none !important;
+  }
+  
+  /* make app content a little wider */
+  article
+  {
+    flex: 3;
+  }
+  
+  /* centre sections */
+  article section 
+  {
+    max-width: 50rem;
+    margin: auto;
+  }
+  
+  /* hide menu button */
+  nav a.toggle
+  {
+    display: none;
+  }
+}

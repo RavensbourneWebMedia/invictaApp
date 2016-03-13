@@ -1,0 +1,36 @@
+.Dog {
+ color: yellow;
+  font-size:3em; 
+    letter-spacing: -5px;
+}
+
+
+.drake{
+    color: #ff3300;
+    font-family: "Arial Black" ;
+    font-size: 2em;
+}
+
+.frame{
+border-style: double outset inset;
+    border-width: 50px;
+    border-color: #ffcc33;
+}
+
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: skyblue;
+}
+
+.dashed {
+    border-style: dashed;
+border-width: 10px;
+ border-color :#ff6600;
+
+
+
+
+}
+

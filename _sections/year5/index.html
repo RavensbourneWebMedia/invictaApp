@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Invicta App template</title>
+
+    <!-- STYLES, aka CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/libraries/fontAwesome.css">
+    <link rel="stylesheet" href="css/libraries/audioPlayer.css">
+    <link rel="stylesheet" href="css/libraries/slick.css">
+    <!-- <link rel="stylesheet" href="css/remixBar.css">-->
+    <link rel="stylesheet" href="css/texts.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/colours.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/bigScreens.css">
+    <link rel="stylesheet" href="css/year5.css">
+
+    <!-- SCRIPTS, aka JS -->
+    <script src="js/libraries/jquery.js"></script>
+    <script src="js/libraries/jquery.audioPlayer.js"></script>
+    <script src="js/libraries/jquery.slick.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/videos.js"></script>
+    <script src="js/audios.js"></script>
+    <script src="js/sliders.js"></script>
+  </head>
+  <body>
+
+    <nav class="menu">
+      <a class="toggle fa fa-bars"></a>
+      <ul>
+        <li goTo="home" >Home</li>
+        <li goTo="reception">Reception</li>
+        <li goTo="year1">Year 1</li>
+        <li goTo="year2">Year 2</li>
+        <li goTo="year3">Year 3</li>
+        <li goTo="year4">Year 4</li>
+        <li goTo="year5">Year 5</li>
+      </ul>
+    </nav>
+
+    <article>
+
+      <section name="home">
+        
+        <h1>Welcome to Invicta!</h1>
+        
+        <img src="images/invictaLogo.png">
+        
+        <p>This is a paragraph for you to change.</p>
+        
+      </section>
+      
+      <section name="year5" class="active">
+        
+        <h1>Year 5</h1>
+
+        <p>We are MacArthur Class and we have set up a mini-enterprise specialising in South American food. Our business, Exquisite Foreign Foods Ltd., has created a unique product; a beautiful book that combines travel writing with fantastic recipes that will challenge your cooking skills and introduce you to new tastes. We are specialists in South American culture and our book will transport you to this fascinating continent through their delicious cuisine. </p>
+
+        <p>Our business partners are Buenos Aires Cafe, the destination for Argentinian food in Greenwich. As well as endorsing our product, Buenos Aires Cafe are selling it at their cafe in Greenwich and restaurant in Blackheath. Why not enjoy the delights of professionally prepared Argentinian cuisine before buying our book and becoming the chef yourself?</p>
+
+        <p>Watch Jessica’s cookery class to discover one of our South American favourite recipes.</p>
+
+        <p>Why not take our South American food quiz to learn more about the ingredients and food culture in South America?</p>
+        
+        <a onclick="goTo('video')"><img src="https://s3.amazonaws.com/studentbridge/Pin/Img/play-button-icon.png" width="23%"></a>
+        
+        <a onclick="goTo('review_page')"><img src="http://www.spectrumclean.com/uploads/4/9/3/8/49387531/3618697.png" width="23%"></a>
+        <a onclick="goTo('quiz_page')"><img src="https://gretchenrubin.com/wp-content/uploads/2014/03/quiz-.jpg.jpg" width="23%"></a>
+        
+        
+        <a onclick="goTo('contact_page')"><img src="http://www.hunter.cuny.edu/ieli/repository/images/Contact-Us%20-E-P.jpg" width="23%"></a>
+
+        <!-- <p>Welcome to the Invicta app we have worked alot on the app with the other people that helped us. We have done coding to sort out the app. With in our app we have put together a recipe book that we will be selling at Buenos Aires Cafe.</p> -->
+
+        <img src="http://buenosairescafe.co.uk/wp-content/uploads/2015/01/YOR_9995.jpg" width="100%">
+        
+        <p>You should go there because they have nice food and a nice place. Click here for <a href="http://buenosairescafe.co.uk/reservation">Buenos Aires booking</a></p> 
+
+        <img src="http://buenosairescafe.co.uk/wp-content/uploads/2015/01/Logo-banner.png">
+
+        <img src="http://buenosairescafe.co.uk/wp-content/uploads/2015/03/reservation-home-image.jpg" width="100%">
+      
+        <p>
+        This is a picture of the Buenos Aires Cafe. The Buenos Aires cafe has lovely food and a wonderful interior. Our recipe book is selling there. You can make all types of food using our book, for example delicious chicken and lamb.
+        </p>
+        
+        
+        <div style="float: left;"><img src="http://i.imgur.com/I6glVtE.png" width="330px"> </div>
+
+        <h1>
+         Where to buy our recipe book 
+        </h1>
+        <p>
+           <a href="http://buenosairescafe.co.uk/blackheath-restaurant">Blackheath Buenos Aires Cafe?</a>
+        </p>
+        <h1>
+          What can you find in the recipe book?
+        </h1>
+        <p>
+          South American recipes by year 5 Invicta Primary School
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79533.84083611837!2d0.019648691440328214!3d51.46857461990834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a83662969505%3A0xe530431832ec9d36!2sInvicta+Primary+School!5e0!3m2!1sen!2suk!4v1457611378443" width="150" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+        <p>MacArthur Class</p>
+        <img src="http://i.imgur.com/bzVuFfD.jpg">
+          </section>
+      
+      <section name="video">
+      
+        <h1>
+          Video page
+        </h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IljG8GiexJ8Q" frameborder="0" allowfullscreen></iframe>
+        <a onclick="goTo('year5')" class="button">Back</a>
+      </section>
+      
+      <section name="quiz_page">
+
+        <div class="quizz-container" data-width="100%" data-height="auto" data-quiz="187318"></div>
+        <script src="//dcc4iyjchzom0.cloudfront.net/widget/loader.js" async></script>
+        
+        <a onclick="goTo('year5')" class="button">Back</a>  
+          
+      </section>
+      
+      <section name="review_page" >
+        
+        <h1>The reviews</h1>
+        
+        <div class="review">
+          
+            <img src="http://i.imgur.com/h9jV9zw.png">
+          <h2> 5 stars!!!</h2>
+          <p>
+            This book is amazing!!!!I've learnt loads I highly recommend it.
+          </p>
+        </div>
+        
+        <div class="review">
+          <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-512.png" width="330px"> 
+          <h2>Bruce Willison</h2>
+          <p>
+            I found cooking really difficult, it was so challenging that I would cry hard. But thanks to this fantastic new book that I’ve found, all my worries are gone. 
+          </p>
+        </div>
+        <div class="review">
+          <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-512.png" width="330px"> 
+          <h2>James Blond</h2>
+          <p>
+            I used to be embarrassed of my ability to cook that I used to keep it secret. I was walking home one day when I stumbled upon a small bookstore. Within this store I spied out what I can only describe as the best literary experience I’ve ever had the pleasure of reading. That was this book. Now I can cook at least 7 dishes and they’re even good enough for the Queen.
+          </p>
+        </div>
+        
+        <a onclick="goTo('year5')" class="button">Back</a>
+      </section>
+      
+      <section name="contact_page">
+      
+        <h1>Contact page</h1>
+
+        <p>Blackheath Site:</p>
+        <p>Invicta Primary School & Children’s Centre</p>
+        <p>Invicta Road</p>
+        <p>London</p>
+        <p>SE3 7HE</p>
+        <p>Receptionist: Amey Gill</p>
+        <p>tel: 020 8858 3831</p>
+        <p>fax: 020 8293 3620</p>
+        <p>Email: admin@invictaprimary.co.uk</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79533.84083611837!2d0.019648691440328214!3d51.46857461990834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a83662969505%3A0xe530431832ec9d36!2sInvicta+Primary+School!5e0!3m2!1sen!2suk!4v1457611378443" width="150" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <a onclick="goTo('year5')" class="button">Back</a>
+      </section>
+
+    </article>
+
+  </body>
+</html>

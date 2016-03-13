@@ -1,0 +1,23 @@
+nav a.toggle
+{
+  margin-left: -3rem;
+  height: 3rem;
+  display: block;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+nav ul
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li
+{
+  padding: .5rem .75rem;
+  cursor: pointer;
+  transition: .4s;
+}
+
