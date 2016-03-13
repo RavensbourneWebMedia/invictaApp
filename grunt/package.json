@@ -1,0 +1,19 @@
+{
+  "name": "InvictaApp",
+  "description": "A collaboration between Ravensbourne Web Media BA and Invicta Primary. Built by students and children.",
+  "author": "Matteo Menapace",
+  "version": "0.1.2016",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^1.0.0",
+    "grunt-contrib-htmlmin": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.0",
+    "grunt-uncss": "^0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RavensbourneWebMedia/invictaApp.git"
+  },
+  "license": "CC-BY-NC-4.0"
+}
