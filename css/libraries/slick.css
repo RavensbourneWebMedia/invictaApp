@@ -182,7 +182,7 @@
   line-height: 1;
   transition: all .3s ease;
 
-  opacity: .3;
+  opacity: .5;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

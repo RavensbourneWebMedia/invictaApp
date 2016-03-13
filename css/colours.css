@@ -39,3 +39,14 @@ iframe {
 .audioplayer-playpause:hover {
   background: #dc5da1;
 }
+
+.slick-prev,
+.slick-next
+{
+  color: white;
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus
+{
+  background: #dc5da1;
+}
