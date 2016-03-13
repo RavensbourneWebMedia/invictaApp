@@ -3,5 +3,6 @@
   padding: .5rem .75rem;
   border-radius: 4px;
   cursor: pointer;
+  text-decoration: none;
   transition: .4s;
 }
