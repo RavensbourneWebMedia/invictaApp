@@ -47,8 +47,22 @@ module.exports = function(grunt)
 				{
 					'../css/app.min.css': 
 					[
-						'../css/*.css', 
-						'!../css/*.min.css'
+						'../css/reset.css',
+				    '../css/fontAwesome.css',
+				    '../css/audioPlayer.css',
+				    '../css/slick.css',
+				    '../css/fonts.css',
+				    '../css/texts.css',
+				    '../css/button.css',
+				    '../css/colours.css',
+				    '../css/skeleton.css',
+				    '../css/menu.css',
+				    '../css/article.css',
+				    '../css/bigScreens.css',
+				    '../css/reception.css',
+				    '../css/year3.css',
+				    '../css/year4.css',
+				    '../css/year5.css'
 					]
 				}
 			}
