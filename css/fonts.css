@@ -25,7 +25,7 @@
 }
 
 @font-face {
-  font-family: 'Sassoon Primary regular';
+  font-family: 'Sassoon Primary';
   src: url('fonts/sap-i-webfont.eot');
   src: url('fonts/sap-i-webfont.eot?#iefix') format('embedded-opentype'),
        url('fonts/sap-i-webfont.woff2') format('woff2'),
@@ -37,7 +37,7 @@
 }
 
 @font-face {
-  font-family: 'Sassoon Primary infant regular';
+  font-family: 'Sassoon Primary infant';
   src: url('fonts/sap-webfont.eot');
   src: url('fonts/sap-webfont.eot?#iefix') format('embedded-opentype'),
        url('fonts/sap-webfont.woff2') format('woff2'),
