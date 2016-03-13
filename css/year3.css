@@ -1,28 +1,32 @@
-.Dog {
- color: yellow;
-  font-size:3em; 
-    letter-spacing: -5px;
+.Dog 
+{
+  color: yellow;
+  font-size: 3em; 
+  letter-spacing: -5px;
 }
 
-
-.drake{
-    color: #ff3300;
-    /*font-family: "Arial Black" ;*/
-    font-size: 2em;
+.drake
+{
+  color: #ff3300;
+  /*font-family: "Arial Black" ;*/
+  font-size: 2em;
 }
 
-.frame {
+.frame 
+{
 	border-style: double outset inset;
   border-width: 50px;
   border-color: #ffcc33;
 }
 
-section[name="year3"] {
+section[name="year3"] 
+{
   /*font-family: "Open Sans", sans-serif;*/
   background-color: skyblue;
 }
 
-.dashed {
+.dashed 
+{
   border-style: dashed;
 	border-width: 10px;
  	border-color :#ff6600;
