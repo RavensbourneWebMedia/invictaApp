@@ -1,6 +1,16 @@
+.half
+{
+	float: left;
+	width: 50%;	
+}
+
+.clear,
 .review
 {
   clear: both;
+  overflow: auto;
+  zoom: 1;
+  /* http://learnlayout.com/clearfix.html */
 }
 
 .review img

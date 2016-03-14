@@ -6,3 +6,8 @@
   text-decoration: none;
   transition: .4s;
 }
+
+.clickable
+{
+	cursor: pointer;
+}
