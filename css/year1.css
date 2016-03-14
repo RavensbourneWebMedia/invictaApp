@@ -1,0 +1,60 @@
+/*body {
+  background-image: url(http://i405.photobucket.com/albums/pp132/karilmoo/paisley/cork1.jpg);
+ 	background-size:800px;
+  background-repeat:repeat;
+  background-attachment: scroll !important;
+}*/
+
+h1.nelson 
+{
+  color: blue;
+  font-family: 'Crafty Girls', cursive;
+  font-size:64px;
+  text-align:center;
+  background-image:url(http://orig12.deviantart.net/2b73/f/2014/044/4/3/crumpled_paper_texture_by_pkgam-d73k5mj.jpg);
+  background-size: 600px;
+  padding:20px;
+  width:300px;
+  margin:0 auto;
+  margin-bottom:20px;
+}
+
+p.nelson, p.nelson2 
+{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;  
+}
+
+p.nelson 
+{
+  color:red;
+  background-image: url(http://i.imgur.com/MHLGWV2.png);
+  width:200px;
+  height:200px;
+  background-position: center;
+  background-size: contain;
+  padding:40px;
+}
+
+p.nelson2 
+{
+  color:green;
+  background-image: url(http://i.imgur.com/EwkwTqL.png);
+  background-position: left;
+  padding:50px 50px 50px 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:500px;
+}
+
+#year1AudioBook {
+  border: 2px solid gold;
+}
+
+/*img.class-photos 
+{
+  display:inline-block;
+  width:500px;
+  margin: auto;
+}*/
