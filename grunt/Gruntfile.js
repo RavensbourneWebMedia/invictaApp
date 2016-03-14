@@ -61,6 +61,7 @@ module.exports = function(grunt)
 				    '../css/bigScreens.css',
 				    '../css/reception.css',
 				    '../css/year1.css',
+				    '../css/year2.css',
 				    '../css/year3.css',
 				    '../css/year4.css',
 				    '../css/year5.css'
